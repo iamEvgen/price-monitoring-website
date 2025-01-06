@@ -1,0 +1,38 @@
+.pageContainer {
+    margin: auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 16px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+a {
+    color: #ff2e5d;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.lastP {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin: 40px 0 20px;
+}
