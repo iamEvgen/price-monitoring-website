@@ -5,6 +5,13 @@
     border-radius: 16px;
     background-color: white;
     overflow-x: hidden;
+
+    h2 {
+        font-size: 28px;
+        margin: 40px 0 20px;
+        color: rgb(63, 63, 63);
+        text-align: center;
+    }
 }
 
 .logo {
@@ -31,8 +38,4 @@ a {
 
 .lastP {
     margin-bottom: 0;
-}
-
-h2 {
-    margin: 40px 0 20px;
 }

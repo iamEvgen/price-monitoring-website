@@ -5,6 +5,12 @@
     border-radius: 16px;
     background-color: white;
     overflow-x: hidden;
+
+    h2 {
+        margin: 40px 0 20px;
+        color: rgb(63, 63, 63);
+        text-align: center;
+    }
 }
 
 .image {
@@ -23,12 +29,6 @@ a {
     &:hover {
         text-decoration: underline;
     }
-}
-
-h2 {
-    margin: 40px 0 20px;
-    color: rgb(63, 63, 63);
-    text-align: center;
 }
 
 .lastH2 {

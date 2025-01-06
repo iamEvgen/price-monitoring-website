@@ -16,7 +16,7 @@ export const WelcomePage = () => {
                 <img src={image2} className={styles.image} alt="welcome page" />
 
                 <h2 className={styles.lastH2}>
-                    3. Explore the <a href="/">user manual</a>
+                    3. Explore the <a href="https://iamevgen.github.io/price-monitoring-website/">user manual</a>
                 </h2>
             </div>
 
