@@ -1,11 +1,12 @@
 {
     "name": "price-monitoring-site",
+    "homepage": "https://iamEvgen.github.io/price-monitoring-website/",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc -b && vite build",
+        "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
@@ -32,6 +33,5 @@
         "typescript": "~5.6.2",
         "typescript-eslint": "^8.18.2",
         "vite": "^6.0.5"
-    },
-    "homepage": "https://iamEvgen.github.io/price-monitoring-website/"
+    }
 }

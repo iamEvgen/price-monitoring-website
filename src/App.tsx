@@ -8,7 +8,7 @@ function App() {
     return (
         <div className={styles.appContainer}>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="" element={<Home />} />
                 <Route path="/welcome-page" element={<WelcomePage />} />
             </Routes>
         </div>
