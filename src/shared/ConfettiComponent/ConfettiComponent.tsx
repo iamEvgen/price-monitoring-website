@@ -22,7 +22,7 @@ export const ConfettiComponent = () => {
             setTimeout(() => {
                 setShowConfetti(false);
             }, 3000);
-        }, 4000);
+        }, 3000);
 
         return () => {
             clearTimeout(timer);
@@ -35,14 +35,27 @@ export const ConfettiComponent = () => {
     }
 
     return (
-        <Confetti
-            width={windowWidth}
-            height={windowHeight}
-            numberOfPieces={200}
+        <div
             style={{
-                opacity: fadeOut ? 0 : 1,
-                transition: 'opacity 1s ease-out',
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                overflow: 'hidden',
+                pointerEvents: 'none',
             }}
-        />
+        >
+            <Confetti
+                width={windowWidth}
+                height={windowHeight}
+                numberOfPieces={200}
+                style={{
+                    opacity: fadeOut ? 0 : 1,
+                    transition: 'opacity 1s ease-out',
+                    pointerEvents: 'none',
+                }}
+            />
+        </div>
     );
 };

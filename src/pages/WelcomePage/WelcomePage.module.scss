@@ -11,6 +11,10 @@
         color: rgb(63, 63, 63);
         text-align: center;
     }
+
+    .lastH2 {
+        margin-bottom: 0;
+    }
 }
 
 .image {
@@ -29,8 +33,4 @@ a {
     &:hover {
         text-decoration: underline;
     }
-}
-
-.lastH2 {
-    margin-bottom: 0;
 }
