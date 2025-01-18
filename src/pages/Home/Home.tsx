@@ -31,7 +31,10 @@ export const Home = () => {
                 <br />
                 1. Click on the extension icon.
                 <br />
-                2. In the opened popup, click on the "Add tracking" button.
+                2.1 If the extension was able to find the price on the page, a button with the text "Track" and the
+                price value will appear in the popup. Click on it for quick tracking creation.
+                <br />
+                2.2 To manually select an element for tracking, click the "Add tracking" button.
             </p>
             <img src={image1} className={styles.image} alt="user manual" />
 
